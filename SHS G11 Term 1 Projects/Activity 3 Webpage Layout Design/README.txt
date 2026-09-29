@@ -1,0 +1,1 @@
+Good day! Firstly open the home.html file to start exploring my recipe webpage. Thank you! 

@@ -1,0 +1,49 @@
+body{
+    background:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(bg.jpg) no-repeat center center / cover fixed;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+  
+}
+
+.tb td, .tb th{
+    color: blue;
+    background-color: aliceblue;
+}
+
+.ave td{
+    border: none;
+    background-color: transparent;
+}
+
+.gantt th{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    color: blue;
+}
+
+h1{
+    position: relative;
+    left: 650px;
+    display: inline-block;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+h1:hover{
+    border: solid 1px lightskyblue;
+    padding: 10px;
+    background-color: white;
+}
+
+.ct th{
+    border: none;
+    position: relative;
+    top: -20px;
+    left: -60px;
+    color: blue;
+}

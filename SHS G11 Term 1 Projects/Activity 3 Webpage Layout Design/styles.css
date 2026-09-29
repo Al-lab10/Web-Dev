@@ -1,0 +1,180 @@
+.logo {
+    display: inline-block;
+}
+body{
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(bg.jpg) no-repeat center center / cover fixed;
+    margin: 0;
+}
+
+.title {
+    display: inline-block;
+    font-family: 'Homemade Apple', cursive;
+    color: brown;
+    margin:0;
+    position: relative;
+    top:-40px;
+    
+}
+
+nav{
+    background-color:antiquewhite;
+    padding: 25px;
+    position: fixed;
+    margin:0;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+}
+
+.search-bar{
+    display: inline-block;
+    position: relative;
+    top: -46px;
+    left: 20px;
+}
+.search-bar input{
+    border: 2px solid brown;
+    padding: 5px;
+    outline: none;
+    width:200px;
+    height: 20px;
+    transition: width 1s ease, background-color 1s ease;
+}
+
+.search-bar input:focus {
+    background-color: NavajoWhite;
+    width: 400px;
+}
+
+.nav-links{
+    display: inline-block;
+    position: relative;
+    float: right;
+    top:  40px;
+    font-family: 'Homemade Apple', cursive;
+    color: brown;
+}
+.nav-links a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    margin: 0 15px;
+    transition: all 1s ease;
+}
+.nav-links a:hover{
+    border: 2px solid brown;
+    padding: 5px;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+
+pre{
+    text-align: center;
+    font-family: 'Baskerville', serif;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.content{
+    font-family: 'Baskerville', serif;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 400px;
+    margin-top: 200px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: brown;
+     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+
+}
+
+.recipes{
+    position: relative;
+    margin: 20px 0px;
+    
+
+}
+#recipe{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 40%;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: brown;
+     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+}
+#recipe2{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 40%;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: brown;
+     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+}
+
+.recipes h3{
+    text-align: center;
+}
+#recipe p{
+    text-align: center;
+}
+#recipe2 p{
+    text-align: center;
+}
+.about{
+    position: relative;
+    margin: 20px 0px;
+}
+#about1{
+ display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    color: antiquewhite;
+    font-size: 25px;
+    width: 1000px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: brown;
+     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+     text-align: center;
+}
+
+#about1 p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+.contacts{
+    position: relative;
+    margin: 20px 0px;
+}
+#contacts1{
+ display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 1000px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: brown;
+     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+     text-align: center;
+}

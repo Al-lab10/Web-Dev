@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Sheet</title>
+<style>
+
+.al{
+    width:1000px;
+    margin: auto;
+    border-collapse:collapse;
+}
+
+.al th,.al td{
+    border:1px solid black;
+    padding:6px;
+
+}
+
+.section{
+    background:gainsboro;
+    color:black;
+    text-align:left;
+}
+
+.small{
+    font-size:11px;
+}
+
+.note{
+    color:red;
+    text-align:center;
+    font-size:12px;
+}
+
+.signature{
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+
+input{
+    width:98%;
+    border:none;
+    outline:none;
+}
+
+.sub{
+    background-color: gainsboro;
+    border: none;
+    outline: none;
+}
+
+caption{
+    caption-side:top;
+    border:1px solid #000;
+    padding:5px;
+    text-align:left;
+}
+
+.pds-header{
+    position:relative;
+}
+
+.top-left{
+    font-size:13px;
+    line-height:1.2;
+}
+
+.pds-header h1{
+    text-align:center;
+    font-size:28px;
+    margin:0;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+
+</style>
+</head>
+<form>
+  <table class="al">
+    <caption>
+        <div class="pds-header">
+            <div class="top-left">
+                <b>CS Form No. 212</b><br>
+                Revised 2026
+            </div>
+
+            <h1>PERSONAL DATA SHEET</h1>
+
+            <p class="warning">
+                <b>WARNING:</b> Any misrepresentation made in the Personal Data Sheet and the Work Experience Sheet shall cause the filing of administrative/criminal case/s against the person concerned.
+            </p>
+
+            <p class="instruction">
+                <b>READ THE ATTACHED GUIDE TO FILLING OUT THE PERSONAL DATA SHEET (PDS) BEFORE ACCOMPLISHING THE PDS FORM.</b><br>
+                Print legibly. Tick appropriate boxes (☑) and use separate sheet if necessary. Indicate N/A if not applicable. <b>DO NOT ABBREVIATE.</b>
+            </p>
+        </div>
+    </caption>
+    <tr>
+    <th colspan="4" class="section">
+        I. PERSONAL INFORMATION
+    </th>
+</tr>
+
+<tr>
+    <td width="180">1. SURNAME</td>
+    <td colspan="3"><input type="text"></td>
+</tr>
+
+<tr>
+    <td>2. FIRST NAME</td>
+    <td colspan="2"><input type="text"></td>
+    <td width="180">
+        NAME EXTENSION (JR., SR.)<br>
+        <input type="text">
+    </td>
+</tr>
+
+<tr>
+    <td>MIDDLE NAME</td>
+    <td colspan="3"><input type="text"></td>
+</tr>
+
+<tr>
+    <td>3. DATE OF BIRTH</td>
+    <td><input type="date"></td>
+
+    <td>16. CITIZENSHIP</td>
+    <td>
+        <input type="checkbox"> Filipino
+        <input type="checkbox"> Dual Citizenship<br><br>
+        <input type="checkbox"> By Birth
+        <input type="checkbox"> By Naturalization<br><br>
+
+        Country:
+        <input type="text">
+    </td>
+</tr>
+
+<tr>
+    <td>4. PLACE OF BIRTH</td>
+    <td><input type="text"></td>
+
+    <td rowspan="5">17. RESIDENTIAL ADDRESS</td>
+    <td rowspan="5">
+        House/Block/Lot No.<br>
+        <input type="text"><br><br>
+
+        Street<br>
+        <input type="text"><br><br>
+
+        Subdivision/Village<br>
+        <input type="text"><br><br>
+
+        Barangay<br>
+        <input type="text"><br><br>
+
+        City/Municipality<br>
+        <input type="text"><br><br>
+
+        Province<br>
+        <input type="text"><br><br>
+
+        ZIP Code<br>
+        <input type="text">
+    </td>
+</tr>
+
+<tr>
+    <td>5. SEX AT BIRTH</td>
+    <td>
+        <input type="checkbox"> Male
+        <input type="checkbox"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>6. CIVIL STATUS</td>
+    <td>
+        <input type="checkbox"> Single
+        <input type="checkbox"> Married<br>
+
+        <input type="checkbox"> Widowed
+        <input type="checkbox"> Separated<br>
+
+        <input type="checkbox"> Other:
+        <input type="text" style="width:120px;">
+    </td>
+</tr>
+
+<tr>
+    <td>7. HEIGHT (m)</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>8. WEIGHT (kg)</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>9. BLOOD TYPE</td>
+    <td><input type="text"></td>
+
+    <td rowspan="5">18. PERMANENT ADDRESS</td>
+    <td rowspan="5">
+        House/Block/Lot No.<br>
+        <input type="text"><br><br>
+
+        Street<br>
+        <input type="text"><br><br>
+
+        Subdivision/Village<br>
+        <input type="text"><br><br>
+
+        Barangay<br>
+        <input type="text"><br><br>
+
+        City/Municipality<br>
+        <input type="text"><br><br>
+
+        Province<br>
+        <input type="text"><br><br>
+
+        ZIP Code<br>
+        <input type="text">
+    </td>
+</tr>
+
+<tr>
+    <td>10. UMID ID NO.</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>11. PAG-IBIG ID NO.</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>12. PHILHEALTH NO.</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>13. PHILSYS CARD NUMBER (PCN)</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>14. TIN NO.</td>
+    <td><input type="text"></td>
+
+    <td>19. TELEPHONE NO.</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>15. AGENCY EMPLOYEE NO.</td>
+    <td><input type="text"></td>
+
+    <td>20. MOBILE NO.</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td></td>
+
+    <td>21. E-MAIL ADDRESS</td>
+    <td><input type="email"></td>
+</tr>
+</table>
+<table class="al">
+<tr>
+    <th colspan="4" class="section">
+        II. FAMILY BACKGROUND
+    </th>
+</tr>
+
+<tr>
+    <td rowspan="5" width="180">
+        <b>22. SPOUSE'S SURNAME</b><br><br>
+        FIRST NAME<br><br>
+        MIDDLE NAME
+    </td>
+
+    <td width="420">
+        <input type="text">
+    </td>
+
+    <td width="300">
+        <b>23. NAME OF CHILDREN</b><br>
+        <span class="small">(Write full name and list all)</span>
+    </td>
+
+    <td width="180">
+        <b>DATE OF BIRTH</b><br>
+        <span class="small">(dd/mm/yyyy)</span>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="text" placeholder="First Name">
+        <input type="text" style="width:80px;" placeholder="Jr./Sr.">
+    </td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><input type="text" placeholder="Middle Name"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><b>OCCUPATION</b> <input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><b>EMPLOYER / BUSINESS NAME</b> <input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><b>BUSINESS ADDRESS</b></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><b>TELEPHONE NO.</b></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td rowspan="3">
+        <b>24. FATHER'S SURNAME</b><br><br>
+        FIRST NAME<br><br>
+        MIDDLE NAME
+    </td>
+
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td>
+        <input type="text" placeholder="First Name">
+        <input type="text" style="width:80px;" placeholder="Jr./Sr.">
+    </td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><input type="text" placeholder="Middle Name"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td rowspan="3">
+        <b>25. MOTHER'S MAIDEN NAME</b><br><br>
+        SURNAME<br><br>
+        FIRST NAME<br><br>
+        MIDDLE NAME
+    </td>
+
+    <td><input type="text" placeholder="Surname"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><input type="text" placeholder="First Name"></td>
+    <td><input type="text"></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><input type="text" placeholder="Middle Name"></td>
+    <td colspan="2" class="note">
+        (Continue on separate sheet if necessary)
+    </td>
+</tr>
+</table>
+<table class="al">
+    <tr>
+    <th colspan="9" class="section">
+        III. EDUCATIONAL BACKGROUND
+    </th>
+</tr>
+
+<tr>
+    <th rowspan="2" width="120">LEVEL</th>
+    <th rowspan="2" width="220">
+        NAME OF SCHOOL<br>
+        <span class="small">(Write in full)</span>
+    </th>
+    <th rowspan="2" width="220">
+        BASIC EDUCATION / DEGREE / COURSE<br>
+        <span class="small">(Write in full)</span>
+    </th>
+    <th colspan="2">
+        PERIOD OF ATTENDANCE
+    </th>
+    <th rowspan="2">
+        HIGHEST LEVEL / UNITS EARNED
+    </th>
+    <th rowspan="2">
+        YEAR GRADUATED
+    </th>
+    <th rowspan="2">
+        SCHOLARSHIP / ACADEMIC HONORS RECEIVED
+    </th>
+</tr>
+
+<tr>
+    <th>From</th>
+    <th>To</th>
+</tr>
+
+<tr>
+    <td>ELEMENTARY</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>SECONDARY</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>VOCATIONAL / TRADE COURSE</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>COLLEGE</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>GRADUATE STUDIES</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td colspan="8" class="note">
+        (Continue on separate sheet if necessary)
+    </td>
+</tr>
+
+<tr>
+    <td class="signature">SIGNATURE</td>
+    <td colspan="4">
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e-signature/digital certificate">
+    </td>
+    <td class="signature">DATE</td>
+    <td colspan="2">
+        <input type="date">
+    </td>
+</tr>
+    <tr>
+        <td class="sub" colspan="10"><input type="submit"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

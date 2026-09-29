@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>CPU Scheduling</title>
+</head>
+    <h1>CPU Scheduling</h1>
+    
+    <center> <div class="tb"><table>
+        <tr>
+            <th>Process</th>
+            <th>Arrival Time</th>
+            <th>Burst Time</th>
+            <th>Completion Time</th>
+            <th>Turnaround time</th>
+            <th>Waiting Time</th>
+        </tr>
+         <tr>
+            <th>P1</th>
+            <td>4</td>
+            <td>5</td>
+            <td>10</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>P2</th>
+            <td>2</td>
+            <td>3</td>
+            <td>5</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th>P3</th>
+            <td>5</td>
+            <td>2</td>
+            <td>12</td>
+            <td>7</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>P4</th>
+            <td>15</td>
+            <td>4</td>
+            <td>19</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+        <tr class="ave">
+            <td></td>
+            <td></td>
+            <td></th>
+            <td></td>
+            <th>Ave: 5</th>
+            <th>Ave: 3</th>
+        </tr>
+
+    
+    </table> </div> </center>
+
+    <h1>Gantt Chart</h1>
+
+    <center><table>
+        <tr class="gantt">
+            <th>Idle</th>
+            <th>P2</th>
+            <th>P1</th>
+            <th>P3</th>
+            <th>Idle</th>
+            <th>P4</th>
+        </tr>
+        <tr class="ct">
+            <th><pre>0</pre></th>
+            <th><pre>2</pre></th>
+            <th><pre>5</pre></th>
+            <th><pre>10</pre></th>
+            <th><pre>12</pre></th>
+            <th><pre>15</pre></th>
+            <th><pre>     19</pre></th>
+        </tr>
+    </table> </center>
+
+</body>
+</html>
